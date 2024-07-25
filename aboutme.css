@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin-top: 1vh;
+    font-size: 12vh; /* Converted from px to vh */
+}
+
+.button-27 {
+    appearance: none;
+    background-color: #d52349;
+    border: none;
+    border-radius: 2vw; /* Converted from px to vw */
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-top: -0.5vh;
+    height: 6vh;
+    width: 9vw;
+    outline: none;
+    padding: 1.2vh 0; /* Converted from px to vh */
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(.23, 1, 0.32, 1); /* Adjusted transition */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    letter-spacing: 0.3vw; /* Converted from px to vw */
+}
+
+.button-27:hover {
+    background-color: #000000;
+}
+
+.imgcontainer img {
+    height: 60vh; /* Kept in vh */
+    width: 30vw; /* Kept in vw */
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12vh; /* Kept in vh */
+}
+
+.left {
+    display: flex;
+    margin-right: 4vw;
+    flex-direction: column;
+}
+
+.image {
+    height: 20vh; /* Kept in vh */
+    width: 20vw; /* Kept in vw */
+    margin-top: -35vh;
+}
+
+.image img {
+    height: 60vh; /* Converted from 500px to vh */
+    width: 60vh; /* Converted from 500px to vh */
+    border-radius: 50%;
+    border: 1.7vw solid white; /* Converted from px to vw */
+}
+
+.lower h1 {
+    font-size: 5vw; /* Converted from px to vw */
+}
+
+.right {
+    height: 50%; /* Kept in % */
+    width: 50%; /* Kept in % */
+}
+
+.right h1 {
+    line-height: 12vh; /* Kept in vh */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-1.5vh); /* Converted from 15px to vh */
+    }
+    60% {
+        transform: translateY(-1vh); /* Converted from 10px to vh */
+    }
+}
+
+.button-right {
+    margin-top: 4vh; /* Kept in vh */
+    height: 15vh; /* Kept in vh */
+    width: 35vw; /* Kept in vw */
+    font-size: 2.2vw; /* Converted from px to vw */
+    animation: bounce 3s ease infinite;
+    transition: all 0.3s ease;
+}
+
+.button-right:hover {
+    transform: translateY(-0.5vh); /* Adjusted to vh */
+}
+
+.skills {
+    width: 100%; /* Kept in % */
+    height: 20vh; /* Kept in vh */
+    display: flex;
+
+}
+
+.line-container {
+    width: 100%; /* Kept in % */
+    text-align: center;
+    position: relative;
+    margin-top: 7vh; /* Kept in vh */
+}
+
+.line-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 1vw; /* Converted from px to vw */
+    font-size: 2vw; /* Converted from 2rem to vw */
+    display: inline-block;
+    line-height: 1;
+    z-index: 1;
+}
+
+.line-container::before {
+    content: '';
+    display: block;
+    width: 100vw; /* Kept in vw */
+    height: 0.2vh; /* Converted from 1px to vh */
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.skillsection {
+    height: 30vh; /* Kept in vh */
+    width: 100vw; /* Kept in vw */
+    margin-top: 20vh; /* Kept in vh */
+}
+
+.skills img {
+    height: 99%; /* Kept in % */
+    width: auto; /* Adjusted to auto */
+    margin-top: 10vh; /* Kept in vh */
+}
+
+.skills img:nth-child(1) {
+    margin-left: 3vw; /* Kept in vw */
+}
+
+.skills img:nth-child(2) {
+    margin-left: 2vw; /* Kept in vw */
+    background-color: white;
+}
+
+.skills img:nth-child(5) {
+    background-color: white;
+}
+
+.timelinecontainer {
+    margin-top: 20vh; /* Kept in vh */
+}
+
+.educationsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh; /* Kept in vh */
+}
+
+.educard {
+    line-height: 11vh; /* Kept in vh */
+    width: 35vw; /* Kept in vw */
+    height: 37vh; /* Kept in vh */
+    background-color: #4f56d3;
+    margin-top: 20vh; /* Kept in vh */
+    margin-bottom: 20vh; /* Kept in vh */
+    margin-right: 2vw; /* Kept in vw */
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -1.4vw, rgba(0, 0, 0, 0.3) 0px 8px 16px -0.8vw; /* Converted box-shadow */
+    flex-direction: column;
+}
+
+.right {
+    margin-top: -7vh; /* Kept in vh */
+}
+
+.right img {
+    height: 90vh; /* Kept in vh */
+    transform: rotate(10deg) translateX(-100%);
+    animation: fadeInLeft 1s ease forwards;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: rotate(10deg) translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(10deg) translateX(0);
+    }
+}
+
+.left h1 {
+    color: #f0e8fd;
+    font-size: 5vw; /* Converted from px to vw */
+    margin-left: 2vw; /* Kept in vw */
+    text-wrap: nowrap;
+    margin-top: 2.2vh; /* Kept in vh */
+}
+
+.educard h1:nth-child(2) {
+    font-size: 4vw; /* Converted from px to vw */
+}
+
+.footercard {
+    background-color: #4f56d3;
+    height: 25vh; /* Kept in vh */
+    width: 82vw; /* Converted from px to vw */
+    margin-bottom: 4vh; /* Kept in vh */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -1.4vw, rgba(0, 0, 0, 0.3) 0px 8px 16px -0.8vw; /* Converted box-shadow */
+}
+
+.footercard h1 {
+    color: #f0e8fd;
+    font-size: 6vw; /* Converted from px to vw */
+}
+@media (max-width: 1200px) {
+    .header h1 {
+        font-size: 10vh; /* Smaller font size for medium screens */
+    }
+
+    .button-27 {
+        width: 12vw; /* Adjust button width */
+        height: 5vh; /* Adjust button height */
+    }
+
+    .lower {
+        margin-top: 8vh; /* Adjust spacing */
+    }
+
+    .educard {
+        width: 80vw; /* Adjust card width */
+        margin: 10vh 0; /* Adjust margin */
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 8vh; /* Adjust for smaller screens */
+    }
+
+    .button-27 {
+        width: 15vw; /* Further adjust button width */
+    }
+
+    .lower {
+        margin-top: 8vh; /* Adjust spacing */
+    }
+
+    .skills img {
+        margin-top: 5vh; /* Adjust spacing */
+    }
+
+    .footercard h1 {
+        font-size: 5vw; /* Adjust footer text size */
+    }
+
+    .educard {
+        height: auto; /* Allow auto height for smaller screens */
+        margin: 5vh 0; /* Adjust margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 6vh; /* Further adjust for mobile */
+    }
+
+    .button-27 {
+        width: 30vw; /* Full width button */
+    }
+
+    .left h1 {
+        font-size: 4vw; /* Adjust left section heading */
+    }
+
+    .right img {
+        height: 70vh; /* Adjust right section image height */
+    }
+
+    .footercard {
+        height: auto; /* Allow auto height for footer */
+    }
+}
